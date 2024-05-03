@@ -11,7 +11,7 @@ html {
     rgba(12, 10, 22, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #fa4a4a;
 }
 
 .purple {
@@ -52,7 +52,7 @@ button:focus {
 /* --------- */
 
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 5px;
 }
 
 /* Track */
@@ -97,7 +97,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #be50f4 !important;
+  background-color: #e64c4cd0 !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -210,7 +210,7 @@ button:focus {
 /* --------- */
 .wave {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
-  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-duration: 2.0s; /* Change to speed up or slow down */
   animation-iteration-count: infinite; /* Never stop waving :) */
   transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
   display: inline-block;
@@ -260,8 +260,20 @@ button:focus {
   background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
+  padding-bottom: 80px !important;
   padding-top: 30px !important;
+}
+.img-fluid{
+  animation: bounce 2s infinite;
+
+}
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
 }
 
 .home-content {
@@ -281,7 +293,7 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #f71e1eee;
 }
 
 .Typewriter__wrapper {
@@ -383,7 +395,7 @@ button:focus {
 }
 
 .home-social-icons:hover {
-  color: #87209e;
+  color: #206c9e;
   box-shadow: 0 0 5px #87209e;
   text-shadow: 0 0 2px #87209e;
 }
@@ -736,7 +748,7 @@ button:focus {
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
   background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  border-color: #4dd3c886 !important;
 }
 .fork-btn-inner::after {
   display: none !important;

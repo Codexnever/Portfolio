@@ -1,40 +1,35 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
-
+import { FaArrowRight } from "react-icons/fa";
 function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+          Hey there! I'm <span className="purple">Chaitanya Kulthe </span>
+            from <span className="purple"> Maharashtra, India.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
-            <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            Currently, I'm immersed in the world of Full-stack developer at MedResto.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Besides coding, I'm passionate about exploring new technologies and enhancing my skills. I enjoy diving into projects that challenge me to think creatively and problem-solve effectively.
+
+            <br />
+            <br />
+            When I'm not coding, you'll find me:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+            <FaArrowRight /> Travelling
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+            <FaArrowRight /> Gaming
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+            <FaArrowRight /> Reading
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
         </blockquote>
       </Card.Body>
     </Card>

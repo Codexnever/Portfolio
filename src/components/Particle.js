@@ -19,8 +19,8 @@ function Particle() {
             opacity: 0.03,
           },
           move: {
-            direction: "right",
-            speed: 0.05,
+            direction: "top", // Change direction to 'top'
+            speed: 2, // Increase speed
           },
           size: {
             value: 1,
